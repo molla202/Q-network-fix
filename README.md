@@ -1,5 +1,23 @@
 # Q-network-fix
 
+##Not
+öncelikle bad block hatasını alıyrosanız malesef çözümü yok sıfırlamaktan baska çare olmuyor.
+```
+screen -a -r q
+```
+```
+cd testnet-public-tools/testnet-validator/
+```
+```
+docker-compose down -v
+```
+```
+docker-compose up -d
+```
+```
+docker-compose logs -f --tail "100" 
+```
+
 ## Peer ekleme ( eşleşemıyorsanız bir türlü olmadıysa son çare )
 ```
 screen -a -r q
